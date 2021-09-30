@@ -16,16 +16,6 @@ h1, h2{
     background-color: rgb(0, 0, 0);
 }
 
-button{
-    margin-left: 300px;
-    width: 75px;
-    height: 40px;
-    padding: 5px;
-    border: 1px rgb(0, 0, 0) solid;
-    border-radius: 10px;
-
-}
-
 button:hover{
     transition: 1.5s;
     background-color: rgb(38, 0, 255);
@@ -33,12 +23,12 @@ button:hover{
 }
 
 #icone{
-    bottom: 35px;
+    bottom: 6vh;
     right: 40px;
     position: absolute;
-    width: 50px;
-    height: 50px;
-    text-align: center;    
+    width: 5vh;
+    height: 5vh;
+    margin-right: 87vh;
 }
 
 #icone:hover{
@@ -46,8 +36,7 @@ button:hover{
 }
 
 body{
-    height: 100%;
-    margin: 0;
+    height: 200vh;
     background-color: rgba(0, 0, 0, 0.753);
 }
 
@@ -60,22 +49,17 @@ body{
 header{
     font-family: 'Alfa Slab One', cursive;
     background-color: rgb(0, 0, 0);
-    width: 400px;
-    color: rgb(255, 255, 255);
     text-align: center;
-    margin-left: 500px;
-    margin-top: 20px;
+    margin-top: 9vh;
 }
 
 p{
     background-color: rgb(0, 0, 0);
-    color: rgb(255, 255, 255);
+    color: white;
     text-align: center;
     font-size: 18px;
     font-weight: 500;
-    font-family: 'Roboto', sans-serif;
-    margin-top: 0;
-   
+    font-family: 'Roboto', sans-serif;   
 }
 
 iframe{
@@ -86,56 +70,51 @@ iframe{
 
 ul{
     background-color: rgb(0, 0, 0);
-    color: rgb(255, 255, 255);
+    color: white;
     text-align: left;
-    font-size: 16px;
+    font-size: 1rem;
     font-family: 'Roboto', sans-serif;
 }
 
 .yt{
-    margin-left: 800px;
-    margin-top: -114px;
-
+    margin-left: 160vh;
+    margin-top: -18vh;
 }
 
 .formulario{
     display:flexbox;
-    height: 210px;
-    background-color: rgb(255, 255, 255);
+    height: 35vh;
+    background-color: white;
     color: rgb(0, 0, 0);
     font-weight: 600;
-    border: 4px rgb(136, 136, 136) solid;;
+    border: 4px rgb(55, 0, 255) solid;
 }
 
 footer{
     background-color: rgb(0, 0, 0);
-    color: rgb(255, 255, 255);
-    text-align: center;
-    font-size: 4rem;
-    padding: 8px;
+    color: white;
+    padding: 0.6vh;
 }
  
 img{
-    width: 30px;
-    height: 30px;
-    margin-bottom: -680px;
+    width: 5vh;
+    height: 5vh;
+    margin-bottom: -110vh;
 }
 
 .descricao{
     text-align: center;
     color: rgb(38, 0, 255);
 }
-
-h5{
-    text-align: center;
-    color: white;
-}
 .ponto{
-    margin-left: 550px;
+    margin-left: 120vh;
 }
 .maior{
-    margin-left: 130px;
+    margin-left: 20vh;
 }
 .sub{
     margin-right: 100px;
+}
+.p{
+    color:rgb(38, 0, 255);
 }
