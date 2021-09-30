@@ -1,0 +1,141 @@
+@keyframes fantasma{
+    0% { opacity: 100%; }
+    50% { opacity: 100%; transform: translateY(20px); transform: scale(2); }
+    100% { opacity: 100%; }
+}
+
+*{
+    box-sizing: content-box;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2{
+    text-align: center;
+    color: rgb(38, 0, 255);
+    background-color: rgb(0, 0, 0);
+}
+
+button{
+    margin-left: 300px;
+    width: 75px;
+    height: 40px;
+    padding: 5px;
+    border: 1px rgb(0, 0, 0) solid;
+    border-radius: 10px;
+
+}
+
+button:hover{
+    transition: 1.5s;
+    background-color: rgb(38, 0, 255);
+    color: white;
+}
+
+#icone{
+    bottom: 35px;
+    right: 40px;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    text-align: center;    
+}
+
+#icone:hover{
+    animation: fantasma 2s infinite;
+}
+
+body{
+    height: 100%;
+    margin: 0;
+    background-color: rgba(0, 0, 0, 0.753);
+}
+
+.bg{
+    background-image: url(../img/massaguacu.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header{
+    font-family: 'Alfa Slab One', cursive;
+    background-color: rgb(0, 0, 0);
+    width: 400px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-left: 500px;
+    margin-top: 20px;
+}
+
+p{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 0;
+   
+}
+
+iframe{
+    height: 720px;
+    width: 1280px;
+    margin-left: 35px;
+}
+
+ul{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    text-align: left;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.yt{
+    margin-left: 800px;
+    margin-top: -114px;
+
+}
+
+.formulario{
+    display:flexbox;
+    height: 210px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    border: 4px rgb(136, 136, 136) solid;;
+}
+
+footer{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 4rem;
+    padding: 8px;
+}
+ 
+img{
+    width: 30px;
+    height: 30px;
+    margin-bottom: -680px;
+}
+
+.descricao{
+    text-align: center;
+    color: rgb(38, 0, 255);
+}
+
+h5{
+    text-align: center;
+    color: white;
+}
+.ponto{
+    margin-left: 550px;
+}
+.maior{
+    margin-left: 130px;
+}
+.sub{
+    margin-right: 100px;
+}
